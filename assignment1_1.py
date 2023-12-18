@@ -82,7 +82,7 @@ else:
 #Q.10 Write a program to check whether the given number is in between 1 and 100?
 
 '''n=int(input("Enter a number to be checked: "))
-if n>1 and n<=100:
+if n>=1 and n<=100:
     print(f"{n} is in between 1 and 100")
 else:
     print(f"{n} is not in between 1 and 100")'''
