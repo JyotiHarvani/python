@@ -42,6 +42,12 @@ while i>=1:
 
 '''for item in "programming":
     print(item)'''
+#Another way to do this
+
+'''str=input("Enter a string: ")
+i=0
+for i in range(len(str)):
+    print(f"str[{i}] = {str[i]}")'''
 
 #Q.7 Write a program to find smallest of given 2 numbers?
 
