@@ -75,7 +75,7 @@ def gen_vowel():
     for v in 'aeiou':
         yield v
 
-print("Vowel are: ")
+print("Vowels are: ")
 x=gen_vowel()
 print(next(x))
 print(next(x))
@@ -85,7 +85,7 @@ for i in x:
 
 #qt] n=1 output 1 2 3 use generators
 def generate_numbers(n):
-    for i in range(1,n+3):
+    for i in range(n,n+3):
         yield i
 
 x=generate_numbers(1)
